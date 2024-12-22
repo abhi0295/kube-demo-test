@@ -1,6 +1,6 @@
 FROM openjdk:17
 
-COPY target/demo-0.0.1-SNAPSHOT.jar demo-0.0.1-SNAPSHOT.jar
+COPY target/kube-demo-test.jar kube-demo-test.jar
 
 EXPOSE :8080
 
